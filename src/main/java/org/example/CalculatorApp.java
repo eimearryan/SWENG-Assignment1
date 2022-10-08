@@ -1,3 +1,4 @@
+package org.example;
 import org.example.ValidateString;
 
 import java.util.ArrayList;
@@ -5,6 +6,7 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class CalculatorApp {
+
 
 
     public static void main(String[] args)
@@ -25,7 +27,7 @@ public class CalculatorApp {
                 // check validity of String
                 if(ValidateString.isValid(userInput) == true)
                 {
-                    CalculatorApp calc = new CalculatorApp(userInput);
+                    System.out.println( "You're result is: " + CalculatorFunction(userInput));
                 }
                 else
                 {
@@ -37,25 +39,25 @@ public class CalculatorApp {
 
     }
 
-    public int Multiplication(int x, int y)
+    public static int Multiplication(int x, int y)
     {
         int result = x * y;
         return result;
     }
 
-    public int addition(int x, int y)
+    public static int addition(int x, int y)
     {
         int result = x + y;
         return result;
     }
 
-    public int subtraction(int x, int y)
+    public static int subtraction(int x, int y)
     {
         int result = x - y;
         return result;
     }
 
-    public CalculatorApp(String userInput) {
+    public static int CalculatorFunction(String userInput) {
 
 
         // create two ArrayLists, one containing the integers and one containing the operators in the order they appear
@@ -137,7 +139,7 @@ public class CalculatorApp {
             i--;
 
         }
-        System.out.println("Result: "+ integerList.get(0));
+        return integerList.get(0);
     }
 
 }

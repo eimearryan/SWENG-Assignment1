@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39c9abab-ae26-43db-a173-ce4541fb46dd" name="Changes" comment="adding while loop to the start and adding operation functions">
+    <list default="true" id="39c9abab-ae26-43db-a173-ce4541fb46dd" name="Changes" comment="adding test file for the calculator">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CalculatorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CalculatorApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CalculatorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CalculatorApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/tests/CalculatorAppTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/CalculatorAppTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +43,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/org/example" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -67,7 +71,7 @@
       <updated>1665136302901</updated>
       <workItem from="1665136304809" duration="3679000" />
       <workItem from="1665162249758" duration="823000" />
-      <workItem from="1665258279937" duration="1620000" />
+      <workItem from="1665258279937" duration="3047000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1665137268618</created>
@@ -83,7 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665258935233</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding while loop to the start and adding operation functions">
+      <created>1665259919211</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665259919211</updated>
+    </task>
+    <task id="LOCAL-00004" summary="adding test file for the calculator">
+      <created>1665260134157</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665260134157</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +123,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="connecting check string valid and calculator" />
     <MESSAGE value="adding while loop to the start and adding operation functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding while loop to the start and adding operation functions" />
+    <MESSAGE value="adding test file for the calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding test file for the calculator" />
   </component>
 </project>
