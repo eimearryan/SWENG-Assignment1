@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39c9abab-ae26-43db-a173-ce4541fb46dd" name="Changes" comment="initial commit">
+    <list default="true" id="39c9abab-ae26-43db-a173-ce4541fb46dd" name="Changes" comment="adding while loop to the start and adding operation functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CalculatorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CalculatorApp.java" afterDir="false" />
     </list>
@@ -67,7 +67,7 @@
       <updated>1665136302901</updated>
       <workItem from="1665136304809" duration="3679000" />
       <workItem from="1665162249758" duration="823000" />
-      <workItem from="1665258279937" duration="607000" />
+      <workItem from="1665258279937" duration="1620000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1665137268618</created>
@@ -76,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665137268618</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="connecting check string valid and calculator">
+      <created>1665258935233</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665258935233</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +103,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="connecting check string valid and calculator" />
+    <MESSAGE value="adding while loop to the start and adding operation functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding while loop to the start and adding operation functions" />
   </component>
 </project>

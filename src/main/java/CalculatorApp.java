@@ -9,26 +9,51 @@ public class CalculatorApp {
 
     public static void main(String[] args)
     {
+        boolean userEnd = false;
 
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter an expression to compute: ");
-        String userInput = input.next();
-
-
-        // check validity of String
-        if(ValidateString.isValid(userInput) == true)
+        while(userEnd == false)
         {
-            CalculatorApp calc = new CalculatorApp(userInput);
+            Scanner input = new Scanner(System.in);
+            System.out.print("Enter an expression to compute: ");
+            String userInput = input.next();
+            if(userInput.equalsIgnoreCase("END"))
+            {
+                userEnd = true;
+            }
+            else
+            {
+                // check validity of String
+                if(ValidateString.isValid(userInput) == true)
+                {
+                    CalculatorApp calc = new CalculatorApp(userInput);
+                }
+                else
+                {
+                    System.out.println("Error that is not a valid string. ");
+                }
+                // if string is invalid print error message, otherwise calculate string
+            }
         }
-        else
-        {
-            System.out.println("Error that is not a valid string. ");
-        }
-        // if string is invalid print error message, otherwise calculate string
-
 
     }
 
+    public int Multiplication(int x, int y)
+    {
+        int result = x * y;
+        return result;
+    }
+
+    public int addition(int x, int y)
+    {
+        int result = x + y;
+        return result;
+    }
+
+    public int subtraction(int x, int y)
+    {
+        int result = x - y;
+        return result;
+    }
 
     public CalculatorApp(String userInput) {
 
@@ -67,7 +92,7 @@ public class CalculatorApp {
                 int tempInt1 = (int) integerList.get(i);
                 int tempInt2 = (int) integerList.get(i+1);
 
-                int newInt = tempInt1*tempInt2;
+                int newInt = Multiplication(tempInt1, tempInt2);
 
                 integerList.set(i+1, newInt);
                 integerList.remove(i);
@@ -92,14 +117,14 @@ public class CalculatorApp {
                 tempInt1 = (int) integerList.get(i);
                 tempInt2 = (int) integerList.get(i+1);
 
-                newInt = tempInt1+tempInt2;
+                newInt = addition(tempInt1, tempInt2);
             }
 
             else if(operatorList.get(i) == '-') {
 
                 tempInt1 = (int) integerList.get(i);
                 tempInt2 = (int) integerList.get(i+1);
-                newInt = tempInt1-tempInt2;
+                newInt = subtraction(tempInt1,tempInt2);
             }
             else {
                 continue;
@@ -112,8 +137,6 @@ public class CalculatorApp {
             i--;
 
         }
-
-
         System.out.println("Result: "+ integerList.get(0));
     }
 
