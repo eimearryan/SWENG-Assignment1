@@ -1,3 +1,5 @@
+import org.example.ValidateString;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Stack;
@@ -5,7 +7,8 @@ import java.util.Stack;
 public class CalculatorApp {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
 
         Scanner input = new Scanner(System.in);
         System.out.print("Enter an expression to compute: ");
@@ -13,10 +16,16 @@ public class CalculatorApp {
 
 
         // check validity of String
+        if(ValidateString.isValid(userInput) == true)
+        {
+            CalculatorApp calc = new CalculatorApp(userInput);
+        }
+        else
+        {
+            System.out.println("Error that is not a valid string. ");
+        }
         // if string is invalid print error message, otherwise calculate string
 
-
-        CalculatorApp calc = new CalculatorApp(userInput);
 
     }
 
