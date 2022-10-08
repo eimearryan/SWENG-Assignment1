@@ -38,7 +38,6 @@ public class ValidateString {
                 valid = false;
                 break;
             }
-
         }
         return valid;
 
