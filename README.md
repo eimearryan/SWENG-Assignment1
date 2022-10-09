@@ -1,1 +1,1 @@
-simple calculator of addition, subtraction and division using java
+simple calculator of addition, subtraction and multiplication using java
